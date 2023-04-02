@@ -1,0 +1,77 @@
+/* purgecss start ignore */
+.ig_popup.ig_amaze {
+    border: .3em solid #444;
+    background-color:  #444;
+    color: #FFF;
+}
+.ig_popup.ig_amaze .ig_bg_overlay{
+    @apply block opacity-50;
+    background-image: url(../../../assets/images/popup-amaze-bg.jpg);
+}
+
+.ig_popup.ig_amaze .ig_headline {
+    @apply text-center;
+    padding: .5em;
+    /*color: #fff;*/
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+    font-size: 2em;
+}
+
+.ig_popup.ig_amaze .ig_image {
+   @apply float-left;
+}
+
+.ig_popup.ig_amaze .ig_message {
+    font-size: 1.2em;
+    padding: 0.5em 1.2em 0.8em;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /*color: #FFF;*/
+    margin: 0 2em;
+}
+
+.ig_popup.ig_amaze .ig_button, 
+.ig_popup.ig_amaze input[type="submit"], 
+.ig_popup.ig_amaze input[type="button"] {
+    @apply align-top font-bold text-center rounded-sm w-2/5 text-white;
+    /*background: hsl(145, 63%, 49%);*/
+    background: #2ecc70;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    border-radius: 3px;
+    border-bottom: .2em solid rgba(63, 63, 63, 0.6);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    margin: .5em auto 1.2em auto;
+    padding: 0.3em 1em;
+}
+.ig_popup.ig_amaze .ig_button:hover, 
+.ig_popup.ig_amaze input[type="submit"]:hover, 
+.ig_popup.ig_amaze input[type="button"]:hover {
+    /*margin-bottom: 1.2em;*/
+    /*border-bottom: 6px solid #c0392b;*/
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+/*.ig_popup.ig_amaze .ig_button:active, 
+.ig_popup.ig_amaze input[type="submit"]:active, 
+.ig_popup.ig_amaze input[type="button"]:active {
+    border-color: transparent !important;
+    margin: .4em auto 1em auto;
+}*/
+
+
+@media only screen and (max-width: 850px) {
+    .ig_popup.ig_amaze .ig_message{
+        margin: 0 1em;
+    }
+}
+
+/****************** Embed Form: Start *******************/
+/*
+.ig_popup.ig_amaze .ig_form_container .ig_button{
+    width: 98%;
+}*/
+
+/****************** Embed Form: End *******************/
+
+/* purgecss end ignore */

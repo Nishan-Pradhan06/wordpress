@@ -1,0 +1,66 @@
+.ig_toast.ig_container {
+	@apply hidden;
+}
+
+.ig_toast .ig_wrapper {
+	@apply overflow-hidden relative;
+	padding: 5px 5px 5px 50px;
+	min-height: 34px;
+}
+
+.ig_toast .ig_content {
+	@apply overflow-hidden;
+}
+
+.ig_toast .ig_headline {
+	@apply inline-block m-0 text-left relative;
+}
+
+.ig_toast .ig_icon {
+	@apply overflow-hidden block absolute;
+	max-height: 32px;
+	max-width: 32px;
+	left: 10px;
+	top: 10px;
+}
+
+.ig_toast .ig_icon img {
+	@apply m-0 p-0;
+	max-width: 32px;
+	max-height: 32px;
+}
+
+.ig_toast .ig_message {
+	margin: -3px 0 0 -2px;
+}
+
+.ig_toast .ig_message p {
+	margin: 0.15em;
+}
+
+.ig_toast_block {
+	@apply fixed p-0 list-none;
+	margin: 5px;
+	z-index: 999999;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.ig_toast_block * {
+	@apply box-content;
+	text-transform: none;
+}
+
+.ig_toast_block .ig_container {
+	margin: 10px 0;
+}
+
+.ig_toast_block .ig_headline {
+	@apply font-bold clear-none p-0;
+}
+
+.ig_toast_block .ig_message {
+	@apply text-left;
+	line-height: 15px;
+	font-size: 12px;
+}

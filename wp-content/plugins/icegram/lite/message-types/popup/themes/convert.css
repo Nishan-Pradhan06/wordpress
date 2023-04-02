@@ -1,0 +1,112 @@
+/* purgecss start ignore */
+/* google Font */ 
+/* latin */
+@font-face {
+  font-family: 'Goudy Bookletter 1911';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Goudy Bookletter 1911'), local('GoudyBookletter1911'), url(https://fonts.gstatic.com/s/goudybookletter1911/v6/l5lwlGTN3pEY5Bf-rQEuIAQibyVIKv8boZ0oFv0g-Lo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.ig_popup.ig_convert {
+    @apply shadow-none w-1/2;
+    background-color: #fffdcc;
+    color: #484747;
+    border-radius: .3em;
+}
+
+.ig_popup.ig_convert .ig_headline {
+    @apply text-center;
+    font-size: 2.5em;
+    padding: .8em 1.2em .3em;
+    /*letter-spacing: 0;*/
+    /*text-align: left;*/
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.ig_popup.ig_convert .ig_image {
+    @apply float-right;
+}
+
+.ig_popup.ig_convert .ig_message {
+    @apply align-baseline text-center;
+    font-size: 1.2em;
+    padding: 0.8em 1.5em;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.ig_popup.ig_convert .ig_button, 
+.ig_popup.ig_convert input[type="submit"], 
+.ig_popup.ig_convert input[type="button"] {
+    @apply font-bold no-underline w-3/5 text-center clear-both;
+    background: #cb0606;
+    color: #fcf8f8;
+    /*text-transform: uppercase;*/
+    font-size: 1.75em;
+    /*border: .25em solid #b9b1b1 !important; */
+    border: .2em solid rgba(0, 0, 0, .2) !important; 
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Goudy Bookletter 1911', serif;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0.3em 1em;
+    margin: .5em auto 1.2em auto;
+}
+.ig_popup.ig_convert .ig_button:hover,
+.ig_popup.ig_convert input[type="submit"]:hover,
+.ig_popup.ig_convert input[type="button"]:hover{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .4);
+}
+.ig_popup.ig_convert .ig_button:active,
+.ig_popup.ig_convert input[type="submit"]:active,
+.ig_popup.ig_convert input[type="button"]:active{
+    @apply shadow-none;
+}
+
+.ig_popup.ig_convert .ig_close {
+    background-position: 0px center;
+    top: 6px;
+    right: 6px;
+    opacity: .4;
+}
+
+.ig_popup.ig_convert .ig_close:hover {
+    background-position: 0px center;
+    opacity: .7;
+}
+
+/****************** Embed Form: Start *******************/
+
+.ig_popup.ig_form_right.ig_convert .ig_form_container.layout_right{
+    padding-top: 2.2em; 
+}
+/*.ig_popup.ig_convert .ig_form_container .ig_button{
+    width: 98%;
+}
+*/
+/****************** Embed Form: End *******************/
+@media only screen and (min-width: 1440px)  {
+    .ig_popup.ig_convert {
+       max-width: 600px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .ig_popup.ig_convert {
+        width: 65%;
+    }
+    .ig_popup.ig_form_right.ig_convert .ig_form_container.layout_right{
+        padding-top: 1em; 
+    }
+}
+@media only screen and (max-width: 644px)  {
+    .ig_popup.ig_convert {
+        @apply w-9/12;
+    }
+}
+@media only screen and (max-width: 375px)  {
+    .ig_popup.ig_convert {
+        width: 90%;
+    }
+}
+
+/* purgecss end ignore */

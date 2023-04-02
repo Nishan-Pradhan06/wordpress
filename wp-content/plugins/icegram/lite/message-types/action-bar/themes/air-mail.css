@@ -1,0 +1,102 @@
+/* purgecss start ignore */
+.ig_action_bar.ig_air-mail.ig_container {
+    /*background-color: #F2F2F2;*/
+    @apply border border-solid;
+    color: #707070;
+    border-image: repeating-linear-gradient(45deg, #a83439, #a83439 10px, #fdfdfd 10px, #fdfdfd 20px, #2f4175 20px, #2f4175 30px, #fdfdfd 30px, #fdfdfd 40px) 8 round;
+    background-color: #fdfdfd;
+}
+
+.ig_action_bar.ig_air-mail.ig_container.ig_top {
+    border-width: 0 0 8px 0;
+}
+
+.ig_action_bar.ig_air-mail.ig_container.ig_bottom {
+    border-width: 8px 0 0 0;
+}
+
+.ig_action_bar.ig_air-mail .ig_data {
+    max-width: 75%;
+    @apply float-left text-left;
+}
+.ig_action_bar.ig_air-mail .ig_headline{
+    color: #2C4A9D;
+}
+.ig_action_bar.ig_air-mail .ig_headline,
+.ig_action_bar.ig_air-mail .ig_message {
+    @apply block;
+}
+
+.ig_action_bar.ig_air-mail .ig_button,
+.ig_action_bar.ig_air-mail input[type="submit"], 
+.ig_action_bar.ig_air-mail input[type="button"]{
+    @apply float-right uppercase font-semibold border-none;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 4px;
+    background: #D82931;
+    /*border-bottom: 3px solid #BF3A2B;*/
+}
+
+.ig_action_bar.ig_air-mail .ig_button:hover,
+.ig_action_bar.ig_air-mail input[type="submit"]:hover,
+.ig_action_bar.ig_air-mail input[type="button"]:hover {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .5);
+}
+
+.ig_action_bar.ig_air-mail .ig_button:active,
+.ig_action_bar.ig_air-mail input[type="submit"]:active,
+.ig_action_bar.ig_air-mail input[type="button"]:active{
+    @apply shadow-none;
+}
+
+/*Commented for now, as it disturbs the whole layout */
+/* 
+.ig_action_bar.ig_air-mail .ig_button:hover,
+.ig_action_bar.ig_air-mail input[type="submit"]:hover, 
+.ig_action_bar.ig_air-mail input[type="button"]:hover{
+    margin-top: -3px; 
+    border-bottom: 6px solid #c0392b;
+}
+*/
+
+.ig_action_bar.ig_air-mail .ig_close {
+    /*top: 0;*/
+}
+.ig_action_bar.ig_air-mail.ig_show.ig_bottom .ig_close > span,
+.ig_action_bar.ig_air-mail.ig_show.ig_top .ig_close > span{
+    opacity: .4;
+    background-position: -520px center;
+}
+
+.ig_action_bar.ig_air-mail.ig_show.ig_bottom .ig_close:hover > span,
+.ig_action_bar.ig_air-mail.ig_show.ig_top .ig_close:hover > span{
+    opacity: .8;
+    background-position: -520px center;
+}
+
+.ig_action_bar.ig_air-mail.ig_hide .ig_close {
+    @apply hidden;
+}
+.ig_action_bar.ig_form_inline.ig_air-mail .ig_form_container.layout_inline .ig_form_header,
+.ig_action_bar.ig_form_bottom.ig_air-mail .ig_form_container.layout_bottom .ig_form_header,
+.ig_action_bar.ig_form_inline.ig_air-mail .ig_form_container.layout_inline .ig_form_footer,
+.ig_action_bar.ig_form_bottom.ig_air-mail .ig_form_container.layout_bottom .ig_form_footer,
+.ig_action_bar.ig_form_bottom.ig_air-mail .ig_form_container.layout_bottom .ig_embed_form_container,
+.ig_action_bar.ig_form_inline.ig_air-mail .ig_form_container.layout_inline .ig_embed_form_container{
+    @apply text-left;
+}
+
+@media only screen and (max-width: 768px){
+    .ig_action_bar.ig_air-mail .ig_button, 
+    .ig_action_bar.ig_air-mail input[type="submit"], 
+    .ig_action_bar.ig_air-mail input[type="button"] {
+        @apply float-left;
+        margin-left: .7em;
+    }
+    .ig_action_bar.ig_air-mail.ig_has_pwby .ig_button, 
+    .ig_action_bar.ig_air-mail.ig_has_pwby input[type="submit"], 
+    .ig_action_bar.ig_air-mail.ig_has_pwby input[type="button"] {
+        margin-left: 2.5em;
+    } 
+}
+/* purgecss end ignore */

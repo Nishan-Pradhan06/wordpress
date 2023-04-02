@@ -1,0 +1,20 @@
+.ig_toast.ig_clear.ig_container {
+	border: 3px solid rgba(0, 0, 0, 0.4);
+ 	border-radius: .5em;
+    background: #fff !important;
+}
+.ig_toast.ig_clear .ig_content {
+	@apply bg-transparent !important;
+}
+.ig_toast.ig_clear .ig_headline {
+	color: #222;
+	letter-spacing: 0.7pt;
+	line-height: 16px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.ig_toast.ig_clear .ig_message {
+	@apply text-left;
+	color: #444;
+	line-height: 15px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}

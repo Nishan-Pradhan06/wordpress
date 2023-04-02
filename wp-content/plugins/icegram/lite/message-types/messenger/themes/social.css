@@ -1,0 +1,137 @@
+.ig_messenger.ig_social.ig_container {
+    /*width: 250px;*/
+    /*height: 260px;*/
+    font-size: 11px;
+    width: 22.8em;
+    height: 23.6em;
+}
+
+.ig_messenger.ig_social .ig_headline {
+    @apply w-full;
+    background-color: #627BAE;
+    color: #FFF;
+    height: 2.45em;
+    line-height: 2.65em;
+    font-size: 1em;
+    padding: 0 3.4em 0 0.7em;
+    border: 1px solid rgba(0, 39, 121, 0.3);
+    border-bottom: none;
+}
+
+.ig_messenger.ig_social .ig_body {
+    @apply block relative right-0;
+    background-color: #edeff4;
+    color: #3e454c;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    /*height: 13.35em;*/
+    height: 18em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    border-bottom: none;
+    padding: 5px .5em 0;
+    padding-left: 3.8em;
+}
+
+.ig_messenger.ig_social.ig_no_icon .ig_body {
+    padding-left: .5em;
+    line-height: 1.37em;
+}
+
+.ig_messenger.ig_social .ig_message:before {
+    @apply block w-0;
+    top: 11px;
+    /*left: 2.25em;*/
+    margin: 0 0 0 -18px;
+    border: 8px solid #DFDFDF;
+    border-color: transparent #DFDFDF transparent transparent;
+    z-index: -1;
+}
+.ig_messenger.ig_social .ig_message:after {
+    @apply block w-0;
+    top: 13px;
+    /*left: 2.6em;*/
+    margin: 0 0 0 -15px;
+    border: 6px solid #FAFAFA;
+    border-color: transparent #FAFAFA transparent transparent;
+}
+
+.ig_messenger.ig_social .ig_message {
+    background-color: #F7F7F7;
+    color: #3E454C;
+    background-image: -webkit-linear-gradient(bottom, #F2F2F2, #FFF);
+    width: 90%;
+    font-size: 1.09em;
+    /*line-height: 1.25em;*/
+    /*padding-left: 3.5em;*/
+    padding: .3em;
+    border: 1px solid rgba(0, 0, 0, .18);
+    border-bottom-color: rgba(0, 0, 0, .29);
+    border-radius: .4em;
+    box-shadow: 0 1px 0 #DCE0E6;
+}
+.ig_messenger.ig_social.ig_no_icon .ig_message{
+    margin: 0 auto 0.5em auto;
+}
+.ig_messenger.ig_social.ig_no_icon .ig_message:after,
+.ig_messenger.ig_social.ig_no_icon .ig_message:before {
+    @apply hidden;
+}
+.ig_messenger.ig_social .ig_icon {
+    margin-left: -3.3em;
+    height: 2.54em;
+    width: 2.54em;
+}
+.ig_messenger.ig_social .ig_footer {
+    @apply block;
+    height: 3em;
+    /*top: 20.5em;*/
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.ig_messenger.ig_social .ig_footer:after {
+    @apply block;
+    background-image: url(../../../assets/images/social-img.png);
+    background-position: -269px -137px;
+    width: 22px;
+    height: 18px;
+    margin-top: .8em;
+    right: .3em
+}
+
+.ig_messenger.ig_social .ig_close {
+    background-image: url(../../../assets/images/social-img.png);
+    background-position: -137px -332px;
+    top: .25em;
+    right: .15em;
+    height: 25px;
+    width: 21px;
+}
+
+.ig_messenger.ig_social .ig_close:before {
+    @apply block h-full w-full p-0;
+    background-image: url(../../../assets/images/social-img.png);
+    background-position: -92px -332px;
+    right: 1.5em;
+}
+.ig_messenger.ig_social .ig_close:after{
+    @apply hidden;
+}
+
+.ig_messenger.ig_social .ig_powered_by {
+    bottom: 1.8em;
+    padding-right: 3em;
+    font-size: .9em;
+}
+
+@media only screen and (max-width: 992px){
+    .ig_messenger.ig_social.ig_container {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .ig_messenger.ig_social.ig_container {
+        font-size: 12px;
+        width: 20em;
+    }
+}

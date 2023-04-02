@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "petersplugins/the-url",
+    "title": "URL causing 404 error",
+    "category": "widgets",
+    "icon": "editor-unlink",
+    "version": "11.4.1",
+    "textdomain": "404page",
+    "attributes": {
+        "urltype": {
+            "type": "string",
+            "default": "full"
+        },
+		"alignment": {
+            "type": "string",
+            "default": "none"
+        }
+    },
+	"supports": {
+		"color": true
+	},
+    "editorScript": "404page-block"
+}

@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'Proxima Nova Alt Regular';
+    src: url('fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+         url('fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+         url('fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Proxima Nova Alt Regular';
+}
+
+body, p{
+        font-family: "Proxima Nova Alt Regular", Proxima Nova Alt Regular;
+    }
+    .header-img{
+        background-color: transparent;
+        background-image: linear-gradient(120deg,#075fc9 0%,#363795 51%);
+        text-align: center;
+    }
+
+    .full-width {
+    width: 84vw;
+    left: 50%;
+}
+
+.logo-fix{
+    padding-top: 10px;
+color: #ffffff;
+padding-bottom: 10px;
+}
+
+.second-section{
+    background-color: #d6d6d6;
+    text-align: center;
+
+}
+
+.second-section h1{
+    font-size: 25px;
+    font-weight: 900;
+        padding: 40px;
+}
+
+.second-section a{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #23a455;
+    border-radius: 22px 22px 22px 22px;
+    padding: 15px 45px;
+}
+
+.three-section{
+
+background-color: rgba(216,216,216,.41);
+    text-align: center;
+
+}
+
+.three-section h1{
+    font-size: 25px;
+    font-weight: 900;
+        padding: 40px;
+}
+
+.three-section a{
+        font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #2a41ae;
+    border-radius: 22px 22px 22px 22px;
+    padding: 15px 45px;
+}
+
+a:focus, a:hover{
+    text-decoration: none!important;
+        transform: scale(1.1);
+}
+.four-section .four-section-first{
+    padding-top: 30px;
+    padding-left: 40px;
+        float: left;
+            width: 100%;
+}
+
+.four-section span{
+    font-size: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+.four-section-second{
+float: left;
+}
+
+.img-four-section{
+    padding-top: 180px;
+}
+.img-four-section img{
+    width: 85%;
+}
+.connect-to-astra{
+    text-align: center;
+}
+.connect-to-astra a{
+        background-color: #23a455;
+    border-radius: 22px 22px 22px 22px;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+
+.carousel {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 58%;
+}
+
+.item img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.img-div-testimon{
+
+    float: left;
+    width: 10%;
+
+}
+
+.elementor-testimonial__text{
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.carousel-control{
+display: none;
+}
+.carousel-control.left,.carousel-control.right{
+    background-image: none!important;
+}
+
+.carousel-indicators li{
+    background-color:#ccc!important;
+}
+.carousel-indicators .active{
+    background-color:green!important;
+}
+.carousel-indicators{
+bottom: 0px!important;
+color: red;
+margin-left: -30%!important;
+}
+
+.elementor-testimonial__cite{
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.elementor-testimonial__name{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+        font-weight: bold!important;
+            font-weight: 700;
+
+}
+
+.center-text{
+    text-align: center;
+}
+
+.margin-to-div{
+    margin-top: 45px;
+}
+
+.margin-to-div a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.margin-to-div a:hover {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.margin-to-div a{
+        transition: .5s;
+    background-size: 200% auto;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+
+    }
+
+a.settings{
+    background-image: linear-gradient(to right,#FF512F 0%,#F09819 51%,#FF512F 100%);
+}
+
+a.dashboard{
+        background-image: linear-gradient(to right,#1FA2FF 0%,#12D8FA 51%,#1FA2FF 100%); 
+}
+a.threats{
+           background-image: linear-gradient(to right,#DA22FF 0%,#9733EE 51%,#DA22FF 100%);
+}
+a.activity{
+        background-image: linear-gradient(to right,#56ab2f 0%,#99d450 51%,#56ab2f 100%);
+}
+
+.btn-primary:hover{
+    background-color:transparent;
+    border-color:transparent;
+}
+
+.astra_external_link a:hover{
+    padding: 8px 30px;
+    background: blueviolet;
+    color: white;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.astra_external_link a,.astra_external_link a:visited,.astra_external_link a:active{
+    padding: 8px 30px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+#astrasecurity_content .success-msg{
+    background-position:10px 15px !important;
+}

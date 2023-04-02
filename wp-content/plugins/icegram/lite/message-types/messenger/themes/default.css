@@ -1,0 +1,176 @@
+.ig_messenger.ig_container {
+    @apply hidden fixed cursor-pointer m-0 p-0 overflow-hidden text-left;
+    @apply bg-transparent !important;
+    z-index: 100000;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 16px;
+    bottom: 0.2em;
+} 
+
+.ig_messenger.ig_container,
+.ig_messenger.ig_container div{
+    @apply box-border;
+}
+.ig_messenger.ig_container.ig_left {
+    left: 0.2em
+}
+.ig_messenger.ig_container.ig_right {
+    right: 0.2em;
+}
+
+.ig_messenger .ig_data,
+.ig_messenger .ig_content {
+    @apply bg-transparent !important;
+    @apply relative;
+}
+.ig_messenger .ig_message:after,
+.ig_messenger .ig_message:before,
+.ig_messenger .ig_close:before,
+.ig_messenger .ig_close:after,
+.ig_messenger .ig_content:before,
+.ig_messenger .ig_data:after,
+.ig_messenger .ig_footer:after,
+.ig_messenger .ig_headline:after,
+.ig_messenger .ig_headline:before {
+    @apply absolute hidden p-0 w-full z-10 box-border;
+    content: '';
+    background-position: 0 0;
+    background-repeat:no-repeat;
+}
+
+.ig_messenger .ig_headline {
+    @apply block !important;
+    @apply font-bold no-underline overflow-hidden whitespace-no-wrap;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+.ig_messenger .ig_headline:after {
+    @apply left-0;
+}
+
+.ig_messenger .ig_body {
+    @apply overflow-x-hidden block border-b-0;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    z-index: 9; 
+}
+
+.ig_messenger .ig_icon {
+    @apply absolute;
+    /*height: 28px;*/
+    /*width: 28px;*/
+    height: 2.5em;
+    width: 2.5em;
+    /*vertical-align: top;*/
+    /*display: inline-block;*/
+}
+.ig_messenger.ig_no_icon .ig_icon {
+    @apply hidden;
+}
+
+.ig_messenger .ig_message {
+    @apply text-left;
+    word-wrap: break-word;
+    /*display: inline-block;*/
+}
+
+.ig_messenger .ig_message p {
+    margin-bottom: 0.25em;
+}
+
+.ig_messenger .ig_footer {
+    @apply hidden;
+}
+
+.ig_messenger .ig_powered_by {
+    @apply z-10 relative text-right;
+    font-size: .62em;
+    /*line-height: 1.2;*/
+}
+
+.ig_messenger .ig_button, 
+.ig_messenger input[type="submit"], 
+.ig_messenger input[type="button"] {
+    @apply cursor-pointer;
+    border-bottom : none;
+}
+.ig_messenger .ig_button:active, 
+.ig_messenger input[type="submit"]:active, 
+.ig_messenger input[type="button"]:active {
+    border-top : none;
+}
+
+.ig_messenger .ig_close {
+    @apply absolute z-10;
+    height: 25px;
+    width: 25px;
+}
+
+.ig_messenger .ig_close:after{
+    @apply bg-no-repeat block;
+    height: 13px;
+    width: 13px;
+    top: 6px;
+    left: 6px;
+    background-image: url(../../../assets/images/clear-header.png);
+    background-repeat: no-repeat;
+    background-position: 0 -195px;
+}
+
+/****************** Embed Form: Start *******************/
+
+.ig_messenger.ig_form_left .ig_form_container.layout_left,
+.ig_messenger.ig_form_right .ig_form_container.layout_right,
+.ig_messenger.ig_form_bottom .ig_form_container.layout_bottom{
+    @apply hidden;
+}
+
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline{
+    @apply float-left;
+    padding: .5em 0;
+}
+
+.ig_messenger.ig_form_inline .ig_message p {
+    @apply mb-0;
+}
+
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline .ig_full .ig_form_els,
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline .ig_half .ig_form_els,
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline .ig_third .ig_form_els,
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline .ig_quater .ig_form_els{
+    width: 99%;
+    margin: .3em auto;
+}
+
+.ig_messenger.ig_form_inline .ig_form_container.layout_inline .ig_button_label{
+    @apply hidden;
+}
+
+/****** Form Style: Style 2 ******/
+
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els{
+    @apply mx-0;    
+}
+
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els.ig_form_els_first input,
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els.ig_form_els_last input,
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els input{
+    padding-left: 1em;
+    border-width: 2px;
+    border-radius: 2em;
+}
+
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els input.ig_button{
+    padding: inherit; 
+}
+
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els.ig_form_els_first label,
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els.ig_form_els_last label,
+.ig_messenger.ig_form_style_2 .ig_form_container.layout_inline  .ig_form_els label{
+    padding-left: 1em;
+}
+
+/****************** Embed Form: End *******************/
+
+

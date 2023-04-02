@@ -1,0 +1,109 @@
+.ig_messenger.ig_talk.ig_container {
+    /*width: 210px;*/
+    /*height: 260px;*/
+    font-size: 12px;
+    width: 17.5em;
+    height: 21em;
+    border: .1em solid #BFBFBF;
+    border-radius: .5em .5em 0 0;
+
+}
+.ig_messenger.ig_talk .ig_close,
+.ig_messenger.ig_talk .ig_close:before,
+.ig_messenger.ig_talk .ig_data:after,
+.ig_messenger.ig_talk .ig_headline:after,
+.ig_messenger.ig_talk .ig_headline:before {
+    @apply bg-cover;
+}
+
+.ig_messenger.ig_talk .ig_headline:before {
+    @apply block;
+    background-image: url(../../../assets/images/clear-header.png);
+    top: .5em;
+    left: .6em;
+    height: 1.25em;
+    width: 1.25em;
+}
+
+.ig_messenger.ig_talk .ig_headline {
+    @appky w-full;
+    background-color: #F5FAFF;
+    color: #00008B;
+    height: 2.2em;
+    line-height: 2.4em;
+    font-size: 1em;
+    padding: 0 2.9em 0 2em;
+    border-bottom: .1em solid #BFBFBF;
+    box-shadow: inset 0 0 .25em 0 #FFF;
+    border-radius: .5em .5em 0 0;
+}
+
+.ig_messenger.ig_talk .ig_headline:after {
+    @apply block;
+    height: 2.5em;
+    top: 2.2em;
+    background-image: url(../../../assets/images/talk-header-2.png);
+}
+
+.ig_messenger.ig_talk .ig_body {
+    @apply relative right-0;
+    background: #FFF;
+    color: #222;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13.48em;
+    border-top: .1em solid #BFBFBF;
+    border-bottom: .1em solid #BFBFBF;
+    top: 2.5em;
+    line-height: 1.25em;
+    padding: .5em .8em 0 .5em;
+    box-shadow: inset 0 0 .25em 0 #FFF;
+}
+
+.ig_messenger.ig_talk .ig_message {
+    @apply w-full;
+    color: #3E454C;
+    padding-left: 3em;
+}
+
+.ig_messenger.ig_talk.ig_no_icon .ig_message {
+    padding-left: .5em;
+}
+
+.ig_messenger.ig_talk .ig_footer {
+    @apply block bg-cover;
+    height: 2.66em; 
+    margin-top: 2.5em;
+    background-image: url(../../../assets/images/talk-footer-1.png);
+}
+
+.ig_messenger.ig_talk .ig_close {
+    @apply z-10;
+    background-image: url(../../../assets/images/talk-close.png);
+    background-position: 0 0;
+    top: .5em;
+    right: .33em;
+    height: 1.25em;
+    width: 1.25em;
+}
+
+.ig_messenger.ig_talk .ig_close:before {
+    @apply block h-full w-full p-0;
+    background-image: url(../../../assets/images/talk-header-1.png);
+    right: 1.5em;
+}
+.ig_messenger.ig_talk .ig_close:after {
+    @apply hidden;
+}
+
+.ig_messenger.ig_talk .ig_powered_by {
+    bottom: 2em;
+    padding-right: 2em;
+    font-size: .8em;
+}
+
+@media only screen and (max-width: 992px){
+    .ig_messenger.ig_talk.ig_container {
+        font-size: 14px;
+    }
+}

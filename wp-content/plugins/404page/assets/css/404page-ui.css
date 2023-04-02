@@ -1,0 +1,93 @@
+#select404page {
+  display: block;
+  width: 100%; 
+  max-width: none;
+}
+
+.pp-404page-videos:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+.pp-404page-videos a {
+  display: block;
+  margin: 0 12px 12px 0;
+  width: 300px;
+  float: left;
+  line-height: 1;
+}
+
+.pp-404page-videos a div {
+  position: relative;
+}
+
+.pp-404page-videos a img {
+  width: 100%;
+  height: auto;
+}
+  
+.pp-404page-videos a div:after {
+  content: '\f236';
+  font-family: dashicons;
+  font-size: 60px;
+  display: block;
+  position: absolute;
+   left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  color: #FF0000;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pp-404page-videos a:hover div:after, .pp-404page-videos a:focus div:after {
+  opacity: 0.8;
+}
+
+.pp-admin-page-wrapper .form-table td .pp-404page-info {
+  display: inline-block;
+  line-height: 20px;
+  margin: 20px 12px 0 12px;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 6px;
+}
+
+.pp-admin-page-wrapper .form-table td .pp-404page-info:before {
+  font-family: dashicons;
+  display: inline-block;
+  font-weight: 400;
+  font-style: normal;
+  speak: none;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  vertical-align: top;
+  text-align: center;
+  content: "\f348";
+  margin-right: 12px;
+}
+
+/* Some changes for Lity to overlay Admin Bar */
+.lity, .lity-wrap {
+  z-index: 999990;
+}
+.lity-loader {
+  z-index: 999991;
+}
+.lity-container {
+  z-index: 999992;
+}
+.lity-content {
+  z-index: 999993;
+}
+.lity-close {
+  z-index: 999994;
+}

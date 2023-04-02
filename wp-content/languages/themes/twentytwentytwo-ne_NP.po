@@ -1,0 +1,894 @@
+# Translation of Themes - Twenty Twenty-Two in Nepali
+# This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-07 07:29:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ne_NP\n"
+"Project-Id-Version: Themes - Twenty Twenty-Two\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "ट्वेन्टी ट्वेन्टी-टु"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
+msgstr "दृढतापूर्वक डिजाइन गरिएको आधारमा निर्मित, ट्वेन्टी ट्वेन्टी-टु ले सबैजना वास्तवमै अद्वितीय वेबसाइटको हकदार छन् भन्ने विचारलाई अँगालेको छ। विषयवस्तुको सूक्ष्म शैलीहरू चराहरूको विविधता र बहुमुखी प्रतिभाबाट प्रेरित छन्: यसको टाइपोग्राफी हल्का तौल अझै बलियो छ, यसको रंग प्यालेट प्रकृतिबाट कोरिएको छ, र यसको लेआउट तत्वहरू पृष्ठमा बिस्तारै बस्छन्। ट्वेंटी ट्वेंटी-टू को वास्तविक समृद्धि यसको अनुकूलन को लागी अवसर मा निहित छ। विषयवस्तु वार्डप्रेस ५.९  मा प्रस्तुत गरिएको पूर्ण साइट सम्पादन सुविधाहरूको फाइदा लिनको लागि बनाइएको हो, जसको मतलब रङ, टाइपोग्राफी, र तपाईंको साइटमा प्रत्येक एकल पृष्ठको लेआउट तपाईंको दृष्टि अनुरूप अनुकूलित गर्न सकिन्छ। यसले दर्जनौं ब्लक ढाँचाहरू पनि समावेश गर्दछ, केही क्लिकहरूमा व्यावसायिक रूपमा डिजाइन गरिएको लेआउटहरूको विस्तृत श्रृंखलाको ढोका खोल्छ। चाहे तपाइँ एकल-पृष्ठ वेबसाइट, एक ब्लग, एक व्यापार वेबसाइट, वा एक पोर्टफोलियो निर्माण गर्दै हुनुहुन्छ, ट्वेन्टी ट्वेन्टी-टु ले तपाइँलाई अद्वितीय रूपमा तपाइँको साइट बनाउन मद्दत गर्दछ।"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "फुटर"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, small)"
+msgstr "हेडर(अन्ध्यारो, सानो)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, large)"
+msgstr "हेडर(अन्ध्यारो, ठुलो)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "हेडर"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Separators)"
+msgstr "पेज (विभाजक छैन ) "
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (No Separators)"
+msgstr "एकल पोस्ट (छुटाउने छैन)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (Large Header)"
+msgstr "पेज (ठुलो हेडर)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "खाली"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr "प्रथम र त्रितिय "
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr "प्रथम र दोश्रो "
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr "प्रथम र पृष्‍ठभुमी  "
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr "अग्रभूमि र तेश्रो "
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr "अग्रभूमि र दोश्रो "
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr "आगाडि र पछाडि"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "माध्यमिक"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "प्राथमिक"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "अग्रभाग"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "स्रोत सेरिफ प्रो"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "सिस्टम फन्ट"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr "ठाडो माध्यमिक बाट पृष्ठभूमि"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr " विकर्ण पृष्ठभूमिबाट तृतीयक"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to secondary"
+msgstr " विकर्ण पृष्ठभूमिबाट माध्यामिक"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr " विकर्ण माध्यामिकबाट पृष्ठभूमि"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "त्रितिय "
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr "ठाडो माध्यमिक देखि त्रितिय "
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr "विकर्ण प्राथमिक बाट त्रितिय"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to background"
+msgstr "ठाडो त्रितियबाट पृष्ठभूमि"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal tertiary to background"
+msgstr " विकर्ण त्रितियबाट पृष्ठभूमि"
+
+#: inc/patterns/query-simple-blog.php:6
+msgid "Simple blog posts"
+msgstr "सामान्य ब्लग पोस्टहरु"
+
+#: inc/patterns/query-large-titles.php:6
+msgid "Large post titles"
+msgstr "ठुलो पोस्ट शिर्सकहरु"
+
+#: inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr "पोस्टहरुका अनियमित ग्रिड"
+
+#: inc/patterns/query-image-grid.php:6
+msgid "Grid of image posts"
+msgstr "तस्बिर पोस्टहरुका ग्रिड"
+
+#: inc/patterns/query-grid.php:6
+msgid "Grid of posts"
+msgstr "पोस्टहरुका ग्रिड"
+
+#: inc/patterns/query-default.php:6
+msgid "Default posts"
+msgstr "पूर्वनिर्धारित पोस्टहरु"
+
+#: inc/patterns/page-sidebar-poster.php:56
+msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
+msgstr "द ग्रान्ड थिएटर <br> १५४ इष्टर्न एभेन्यु <br> म्यारिल्यान्ड एन वाइ, १२३४५  "
+
+#: inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr "स्थान"
+
+#: inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr "फेब्रुअरी १२, २०२१ "
+
+#: inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr "मिती"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr "ट्यागहरु"
+
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "पोस्टहरु"
+
+#: inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr "स्वागतम"
+
+#: inc/patterns/page-about-solid-color.php:14
+msgid "Edvard<br>Smith"
+msgstr "ईडभार्ड <br> स्मिथ  "
+
+#: inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "४०४"
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr "४०४ सामग्री"
+
+#: inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr "पूर्वनिर्धारित हेडर"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "थप जानुहोस् "
+
+#: inc/patterns/general-wide-image-intro-buttons.php:16
+msgid "Welcome to<br>the Aviary"
+msgstr "एवियरीमा <br> स्वागत छ "
+
+#: inc/patterns/general-two-images-text.php:42
+#: inc/patterns/general-wide-image-intro-buttons.php:35
+#: inc/patterns/page-layout-image-text-and-video.php:30
+msgid "Buy Tickets"
+msgstr "टिकटहरू किन्नुहोस्"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "$१५०"
+
+#: inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr "३"
+
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "$७५"
+
+#: inc/patterns/general-pricing-table.php:47
+msgid "Sparrow"
+msgstr "भँगेरा"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "२"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "$२५"
+
+#: inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr "१"
+
+#: inc/patterns/general-pricing-table.php:6
+msgid "Pricing table"
+msgstr "मुल्य सुची"
+
+#: inc/patterns/general-list-events.php:97
+msgid "May 20th, 2022, 6 PM"
+msgstr "मे २० २०२१, साँझ  ६ बजे "
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "थप पढ्नुहोस्"
+
+#: inc/patterns/footer-navigation-copyright.php:20
+#: inc/patterns/footer-social-copyright.php:24
+msgid "© Site Title"
+msgstr "© साईटको शीर्षक"
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr "पूर्वनिर्धारित फुटर"
+
+#: inc/patterns/footer-blog.php:31
+#: inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr "वर्गहरु"
+
+#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr "नवीनतम पोस्टहरू"
+
+#: inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr "ब्लग फुटर"
+
+#: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
+msgid "About us"
+msgstr "हाम्रो बारेमा"
+
+#: inc/block-patterns.php:21
+msgid "Pages"
+msgstr "पृष्ठहरु"
+
+#: inc/block-patterns.php:20
+msgid "Query"
+msgstr "क्वोरी "
+
+#: inc/block-patterns.php:19
+msgid "Headers"
+msgstr "हेडरहरु"
+
+#: inc/block-patterns.php:18
+msgid "Footers"
+msgstr "फुटरहरु"
+
+#: inc/block-patterns.php:17
+msgid "Featured"
+msgstr "विषेश"
+
+#: inc/patterns/footer-query-images-title-citation.php:6
+msgid "Footer with query, featured images, title, and citation"
+msgstr "क्वोरी सँग फुटर, बिशेष तस्बिरहरु, शिर्सक र उद्धरण"
+
+#: inc/patterns/footer-navigation.php:6
+msgid "Footer with navigation and citation"
+msgstr ""
+"फुटर सँग नेभिगेसन र उद्धरण \n"
+"\n"
+" "
+
+#: inc/patterns/footer-navigation-copyright.php:6
+msgid "Footer with navigation and copyright"
+msgstr "फुटर सँग  नेभिगेसन  र  प्रतिलिपि अधिकार"
+
+#: inc/patterns/footer-logo.php:6
+msgid "Footer with logo and citation"
+msgstr ""
+"फुटर सँग लोगो र उद्धरण \n"
+"\n"
+" "
+
+#: inc/patterns/footer-dark.php:6
+msgid "Dark footer with title and citation"
+msgstr "अन्ध्यारो फुटर सँग शिर्सक र उद्धरण"
+
+#: inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr "पाठमा आधारित पोस्टहरुका ग्रिड"
+
+#: inc/patterns/page-sidebar-poster.php:14
+msgid "<em>Flutter</em>, a collection of bird-related ephemera"
+msgstr "<em>फटाफट</em>, पक्षी सम्बन्धित क्षणभंगुरको सङ्कलन "
+
+#: inc/patterns/page-sidebar-poster.php:6
+msgid "Poster with right sidebar"
+msgstr "पोस्टरको साथमा दाँया साईडबार "
+
+#: inc/patterns/page-sidebar-grid-posts.php:6
+msgid "Grid of posts with left sidebar"
+msgstr "पोस्टका ग्रिडहरु बाँया साईडबार सँग "
+
+#: inc/patterns/page-sidebar-blog-posts.php:6
+msgid "Blog posts with left sidebar"
+msgstr "ब्लग पोस्टहरु बाँया साईडबार सँग "
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:6
+msgid "Blog posts with right sidebar"
+msgstr "ब्लग पोस्टहरुको साथमा दाँया साईडबार "
+
+#: inc/patterns/page-layout-two-columns.php:10
+msgid "<em>Goldfinch </em><br><em>&amp; Sparrow</em>"
+msgstr "<em>गोल्डफिन्च </em><br><em>&amp; भँगेरा</em>"
+
+#: inc/patterns/page-layout-two-columns.php:6
+msgid "Page layout with two columns"
+msgstr "पृष्‍ठ लेआउट दुई कोलुमको साथमा "
+
+#: inc/patterns/page-layout-image-text-and-video.php:53
+msgid "Oh hello. My name’s Angelo, and you’ve found your way to my blog. I write about a range of topics, but lately I’ve been sharing my hopes for next year."
+msgstr "ओहो नमस्ते। मेरो नाम एन्जेलो हो, र तपाईंले मेरो ब्लगमा आफ्नो बाटो फेला पार्नुभयो। म विषयहरूको दायराको बारेमा लेख्छु, तर हालै मैले अर्को वर्षको लागि मेरो आशाहरू साझा गरिरहेको छु।"
+
+#: inc/patterns/page-layout-image-text-and-video.php:42
+msgid "An illustration of a bird in flight"
+msgstr "उडानमा चराको दृष्टान्त"
+
+#: inc/patterns/page-layout-image-text-and-video.php:21
+msgid "Screening"
+msgstr "स्क्रिनिङ"
+
+#: inc/patterns/page-layout-image-text-and-video.php:6
+msgid "Page layout with image, text and video"
+msgstr "पृष्‍ठ लेआउट सँग तस्बिर, पाठ र भिडियो "
+
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "ओहो नमस्ते। मेरो नाम एन्जेलो हो, र म यो ब्लग सञ्चालन गर्छु। म पोर्टल्यान्डमा जन्मेको थिएँ, तर म हाल न्यूयोर्कको माथिल्लो भागमा बस्छु। तपाईंले मलाई <a href=\"#\">ईगल बीगल</a> र <a href=\"#\">शोक गर्ने ढुकुर</a> जस्ता नामका प्रकाशनहरूबाट चिन्न सक्नुहुन्छ। म बाँच्नका लागि लेख्छु।<br><br>म प्राय: यो ब्लगलाई चराहरूको विस्तृत सूची र मलाई रोचक लाग्ने अन्य चीजहरूको सूची बनाउन प्रयोग गर्छु। यदि तपाईंले मेरो सूचीहरू मध्ये एउटामा त्रुटि फेला पार्नुभयो भने, कृपया यसलाई आफैंमा राख्नुहोस्।<br><br>यदि त्यो तपाईंको चियाको कप होइन भने, <a href=\"#\">म निश्चित रूपमा यो चिया सिफारिस गर्छु</a> यो मेरो मनपर्ने हो।"
+
+#: inc/patterns/page-layout-image-and-text.php:15
+msgctxt "Short for to be determined"
+msgid "TBD"
+msgstr "टिबिडि"
+
+#: inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr "ओहो नमस्ते। मेरो नाम एडवर्ड हो, र तपाईंले मेरो वेबसाइटमा आफ्नो बाटो फेला पार्नुभयो। म एक शौकीन पक्षी पर्यवेक्षक हुँ, र म हरेक मंगलबार साँझ राती ११ बजे ईडीटी मा मेरो आफ्नै रेडियो कार्यक्रम पनि प्रसारण गर्छु। एक पल्ट सुन्नुहोस्!"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "ओहो नमस्ते। मेरो नाम डग, र तपाईंले मेरो वेबसाइटमा आफ्नो बाटो फेला पार्नुभयो। म एक उत्सुक पक्षी पर्यवेक्षक हुँ, र म मंगलबार साँझ ११ बजे ईडीटी मा मेरो आफ्नै रेडियो कार्यक्रम पनि प्रसारण गर्छु।"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Stilton"
+msgstr "स्टिलटन"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Doug"
+msgstr "डग"
+
+#: inc/patterns/page-about-media-left.php:9
+#: inc/patterns/page-sidebar-poster.php:26
+msgid "Image of a bird on a branch"
+msgstr "रुखको हागामा बसेको एउटा चराको तस्बिर "
+
+#: inc/patterns/page-about-links.php:21
+msgid "A podcast about birds"
+msgstr "चराहरूको बारेमा पोडकास्ट"
+
+#: inc/patterns/page-about-media-right.php:9
+msgid "An image of a bird flying"
+msgstr "उडिरहेको चराको एउटा तस्बिर"
+
+#: inc/patterns/page-about-solid-color.php:6
+msgid "About page on solid color background"
+msgstr "बारेमा पृष्ठको ठोस रंग पृष्ठभूमिमा "
+
+#: inc/patterns/page-about-simple-dark.php:18
+msgid "Jesús<br>Rodriguez"
+msgstr "जेसस<br>रोड्रिगेज"
+
+#: inc/patterns/page-about-simple-dark.php:6
+msgid "Simple dark about page"
+msgstr "साधारण गाढा बारेमा पृष्ठ"
+
+#: inc/patterns/page-about-media-right.php:16
+msgid "Emery<br>Driscoll"
+msgstr "एमरी<br>ड्रिस्कोल"
+
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "स्वूप"
+
+#: inc/patterns/page-about-links-dark.php:42
+#: inc/patterns/page-about-links.php:46
+msgid "About the hosts"
+msgstr "आयोजकहरूको बारेमा"
+
+#: inc/patterns/page-about-links-dark.php:38
+#: inc/patterns/page-about-links.php:42
+msgid "Support the show"
+msgstr "शो लाई समर्थन गर्नुहोस्"
+
+#: inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "ओहो नमस्ते। मेरो नाम जेसस हो, र तपाईंले मेरो वेबसाइटमा आफ्नो बाटो फेला पार्नुभयो। म एक उत्सुक पक्षी पर्यवेक्षक हुँ, र म मंगलबार साँझ राती ११ बजे ईडीटी मा मेरो आफ्नै रेडियो कार्यक्रम पनि प्रसारण गर्छु।"
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "ओहो नमस्ते। मेरो नाम एमरी हो, र तपाईंले मेरो वेबसाइटमा आफ्नो बाटो फेला पार्नुभयो। म एक उत्सुक पक्षी पर्यवेक्षक हुँ, र म मंगलबार साँझ राती ११ बजे ईडीटी मा मेरो आफ्नै रेडियो कार्यक्रम पनि प्रसारण गर्छु।"
+
+#: inc/patterns/page-about-links-dark.php:26
+#: inc/patterns/page-about-links.php:30
+msgid "Watch our videos"
+msgstr "हाम्रा भिडियोहरू हेर्नुहोस्"
+
+#: inc/patterns/page-about-links-dark.php:17
+msgid "A trouble of hummingbirds"
+msgstr "Hummingbirds को एक समस्या"
+
+#: inc/patterns/page-about-links-dark.php:13
+#: inc/patterns/page-about-links.php:10
+msgid "Logo featuring a flying bird"
+msgstr "उडिरहेको चरा देखाइएको लोगो"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:59
+msgid "Join my mailing list"
+msgstr "मेरो मेलिङ सूचीमा सामेल हुनुहोस्"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr "मेरो प्रक्रिया बारे जान्नुहोस्"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:43
+msgid "Read about me"
+msgstr "मेरो बारेमा पढ्नुहोस्"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:33
+msgid "Take a class"
+msgstr "कक्षा लिनुहोस्"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:25
+msgid "Support my studio"
+msgstr "मेरो स्टुडियोलाई समर्थन गर्नुहोस्"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:17
+msgid "Purchase my work"
+msgstr "मेरो काम किन्नुहोस्"
+
+#: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
+msgid "Heading and bird image"
+msgstr "हेडिङ र चराको तस्बिर "
+
+#: inc/patterns/header-with-tagline.php:6
+msgid "Header with tagline"
+msgstr "ट्यागलाइनको साथ हेडर"
+
+#: inc/patterns/header-title-and-button.php:6
+msgid "Title and button header"
+msgstr "शीर्षक र बटन हेडर"
+
+#: inc/patterns/header-stacked.php:6
+msgid "Logo and navigation header"
+msgstr "लोगो र नेभिगेसन हेडर"
+
+#: inc/patterns/header-small-dark.php:6
+msgid "Small header with dark background"
+msgstr "गाढा पृष्ठभूमि भएको सानो हेडर"
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with black background"
+msgstr "लोगो, नेभिगेसन, र कालो पृष्ठभूमि संग सामाजिक लिङ्क हेडर"
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "लोगो, नेभिगेसन, र अफसेट ट्यागलाइन हेडर"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with gray background"
+msgstr "खरानी पृष्ठभूमि संग लोगो र नेभिगेसन हेडर"
+
+#: inc/patterns/header-large-dark.php:24
+#: inc/patterns/hidden-heading-and-bird.php:14
+msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
+msgstr "<em>द ह्याचरी</em>: चरा अवलोकनमा मेरो साहसिक कार्यहरूको बारेमा ब्लग"
+
+#: inc/patterns/header-large-dark.php:6
+msgid "Large header with dark background"
+msgstr "गाढा पृष्ठभूमि भएको ठूलो हेडर"
+
+#: inc/patterns/header-image-background.php:11
+msgid "Illustration of a flying bird"
+msgstr "उडिरहेको चराको चित्रण"
+
+#: inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr "तस्बिर पृष्ठभूमि संग हेडर"
+
+#: inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links, and salmon background"
+msgstr "नेभिगेसन, सामाजिक लिङ्कहरू, र सामन पृष्ठभूमि संग केन्द्रित हेडर"
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr "बिच लोगोको साथ हेडर"
+
+#: inc/patterns/header-centered-logo-black-background.php:6
+msgid "Header with centered logo and black background"
+msgstr "बिच लोगो र कालो पृष्ठभूमि भएको हेडर"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "शौक पक्षी अवलोकनकर्ताहरूको बारेमा एउटा चलचित्र, विभिन्न चराहरूको सूची, तिनीहरूले गर्ने आवाजहरूसँग जोडिएको। प्रत्येक चरालाई तिनीहरूको वैज्ञानिक नामद्वारा सूचीबद्ध गरिएको छ त्यसैले चीजहरू अधिक आधिकारिक देखिन्छ।"
+
+#: inc/patterns/general-video-trailer.php:12
+#: inc/patterns/page-layout-image-text-and-video.php:49
+msgid "Extended Trailer"
+msgstr "विस्तारित ट्रेलर"
+
+#: inc/patterns/general-video-trailer.php:6
+msgid "Video trailer"
+msgstr "भिडियो ट्रेलर"
+
+#: inc/patterns/general-video-header-details.php:41
+msgid "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
+msgstr "एन्जेलो त्सो<br>एडवर्ड स्टिलटन<br>एमी जेन्सेन<br>बोस्टन बेल<br>शे फोर्ड"
+
+#: inc/patterns/general-video-header-details.php:35
+msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+msgstr "जेसस रोड्रिग्ज<br>डग स्टिलटन<br>एमरी ड्रिसकोल<br>मेगन पेरी<br>रोवन मूल्य"
+
+#: inc/patterns/general-video-header-details.php:29
+msgid "Featuring"
+msgstr "फिचर गर्दै"
+
+#: inc/patterns/general-video-header-details.php:11
+#: inc/patterns/page-layout-image-text-and-video.php:11
+msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
+msgstr "<em>वारबल</em>, <br>सोख गर्ने पक्षी अवलोकनकर्ताहरूको बारेमा एउटा चलचित्र।"
+
+#: inc/patterns/general-video-header-details.php:6
+msgid "Video with header and details"
+msgstr "हेडर र विवरण सहितको भिडियो"
+
+#: inc/patterns/general-two-images-text.php:29
+#: inc/patterns/page-layout-image-text-and-video.php:25
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "मे १४, २०२२ @ पिएम <br> द भिन्टेज थिएटर ,<br> २४५ आर्डेन आरडी. <br> गार्डनभिल्ली, एन एच"
+
+#: inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr "स्क्रिनिङ"
+
+#: inc/patterns/general-two-images-text.php:17
+#: inc/patterns/general-wide-image-intro-buttons.php:10
+#: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
+#: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
+msgid "Illustration of a bird flying."
+msgstr "उडिरहेको चराको चित्रण।"
+
+#: inc/patterns/general-two-images-text.php:11
+msgid "Illustration of a bird sitting on a branch."
+msgstr "हाँगामा बसेको चराको चित्रण।"
+
+#: inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr "हाम्रो मेलिङ सूचीमा सामेल हुनुहोस्"
+
+#: inc/patterns/general-pricing-table.php:19
+msgid "Pigeon"
+msgstr "परेवा"
+
+#: inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr "आफ्नो इनबक्सबाट <br>चराहरू हेर्नुहोस्"
+
+#: inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr "कलआउट सदस्यता लिनुहोस्"
+
+#: inc/patterns/general-pricing-table.php:75
+msgid "Falcon"
+msgstr "फाल्कन"
+
+#: inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr "एमी जेन्सन"
+
+#: inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr "परेवा स्तरमा सामेल भएर हाम्रो बढ्दो समुदायलाई सहयोग गर्न मद्दत गर्नुहोस्। तपाईंको समर्थनले हाम्रा लेखकहरूलाई भुक्तान गर्न मद्दत गर्नेछ, र तपाईंले हाम्रो विशेष न्यूजलेटरमा पहुँच पाउनुहुनेछ।"
+
+#: inc/patterns/general-pricing-table.php:51
+msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr "भँगेरा स्तरमा सामेल हुनुहोस् र हाम्रो बगालको सदस्य बन्नुहोस्! तपाईंले हाम्रो न्यूजलेटर, साथै एउटा बर्ड पिन प्राप्त गर्नुहुनेछ जुन तपाईं प्रकृतिमा बाहिर हुँदा गर्वका साथ लगाउन सक्नुहुन्छ।"
+
+#: inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr "फाल्कन स्तरमा सामेल भएर हाम्रो समुदायको लागि अग्रणी भूमिका खेल्नुहोस्। यो स्तरले तपाइँलाई हाम्रो बोर्डमा सिट कमाउँछ, जहाँ तपाइँ भविष्यको पक्षी अवलोकन अभियानहरूको योजना बनाउन मद्दत गर्न सक्नुहुन्छ।"
+
+#: inc/patterns/general-list-events.php:73
+msgid "May 18th, 2022, 7 PM"
+msgstr "मे १८ २०२१, साँझ  ७ बजे "
+
+#: inc/patterns/general-list-events.php:61
+#: inc/patterns/general-list-events.php:109
+msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+msgstr "स्वेल थिएटर<br>१२० नदी आर डि.<br>रेनफल, एन एच"
+
+#: inc/patterns/general-list-events.php:55
+msgid "Doug Stilton"
+msgstr "डग स्टिलटन"
+
+#: inc/patterns/general-list-events.php:49
+msgid "May 16th, 2022, 6 PM"
+msgstr "मे १६ २०२२, साँझ  ६ बजे "
+
+#: inc/patterns/general-list-events.php:37
+#: inc/patterns/general-list-events.php:85
+msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "द भिन्टगे थिएटर<br>२४५ आर्डेन रोड।<br>गार्डेनभिल, एन एच"
+
+#: inc/patterns/general-list-events.php:31
+msgid "Jesús Rodriguez"
+msgstr "जेसस रोड्रिगेज"
+
+#: inc/patterns/general-list-events.php:25
+msgid "May 14th, 2022, 6 PM"
+msgstr "मे १४ २०२२, साँझ  ६ बजे "
+
+#: inc/patterns/general-list-events.php:11
+msgid "Speaker Series"
+msgstr "वक्ता श्रृंखला"
+
+#: inc/patterns/general-list-events.php:6
+msgid "List of events"
+msgstr "घटनाहरूको सूची"
+
+#: inc/patterns/general-layered-images-with-duotone.php:10
+#: inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Illustration of a flying bird."
+msgstr "उडिरहेको चराको चित्रण।"
+
+#: inc/patterns/general-layered-images-with-duotone.php:9
+#: inc/patterns/header-image-background-overlay.php:11
+msgid "Painting of ducks in the water."
+msgstr "पानीमा हाँसको चित्रकला।"
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "डुओटोनको साथ स्तरित छविहरू"
+
+#: inc/patterns/general-list-events.php:103
+msgid "Emery Driscoll"
+msgstr "एमरी ड्रिस्कोल"
+
+#: inc/patterns/general-large-list-names.php:11
+#: inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr "दूरबीन प्रतिनिधित्व गर्ने प्रतिमा।"
+
+#: inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr "नामहरूको ठूलो सूची"
+
+#: inc/patterns/general-image-with-caption.php:15
+msgid "A beautiful bird featuring a surprising set of color feathers."
+msgstr "रङका प्वाँखहरूको अचम्मको सेटको विशेषता रहेको एउटा सुन्दर चरा।"
+
+#: inc/patterns/general-image-with-caption.php:11
+msgid "Hummingbird"
+msgstr "हमिङबर्ड"
+
+#: inc/patterns/general-image-with-caption.php:10
+msgid "Hummingbird illustration"
+msgstr "हमिङबर्ड चित्रण "
+
+#: inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr "जेसस रोड्रिग्ज, डग स्टिलटन, एमरी ड्रिसकोल, मेगन पेरी, रोवन प्राइस, एन्जेलो त्सो, एडवर्ड स्टिलटन, एमी जेन्सेन, बोस्टन बेल, शे फोर्ड, ली कनिङ्घम, एभलिन रे, ल्यान्डन रीस, इवान हार्ट, जेना चान, फिनिक्स मरे, , एल्डो डेभिडसन, जेन हल।"
+
+#: inc/patterns/general-image-with-caption.php:6
+msgid "Image with caption"
+msgstr "क्याप्शनको साथ तस्बिर"
+
+#: inc/patterns/general-featured-posts.php:6
+msgid "Featured posts"
+msgstr "विशेष पोस्टहरू"
+
+#: inc/patterns/general-divider-light.php:6
+msgid "Divider with image and color (light)"
+msgstr "तस्बिर र रंग (प्रकाश) संग विभाजक"
+
+#: inc/patterns/general-divider-dark.php:6
+msgid "Divider with image and color (dark)"
+msgstr "तस्बिर र रंग संग विभाजक (गाढा)"
+
+#: inc/patterns/footer-title-tagline-social.php:6
+msgid "Footer with title, tagline, and social links on a dark background"
+msgstr "कालो पृष्ठभूमिमा शीर्षक, ट्यागलाइन र सामाजिक लिङ्कहरू भएको फुटर"
+
+#: inc/patterns/footer-social-copyright.php:6
+msgid "Footer with social links and copyright"
+msgstr "सामाजिक लिङ्क र प्रतिलिपि अधिकार संग फुटर"
+
+#: inc/patterns/footer-query-title-citation.php:6
+msgid "Footer with query, title, and citation"
+msgstr "प्रश्न, शीर्षक, र उद्धरण सहित फुटर"
+
+#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
+#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
+#: inc/patterns/footer-navigation.php:20
+#: inc/patterns/footer-query-images-title-citation.php:35
+#: inc/patterns/footer-query-title-citation.php:33
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org/"
+
+#. Translators: WordPress link.
+#: inc/patterns/footer-blog.php:49 inc/patterns/footer-dark.php:17
+#: inc/patterns/footer-default.php:17 inc/patterns/footer-logo.php:17
+#: inc/patterns/footer-navigation.php:19
+#: inc/patterns/footer-query-images-title-citation.php:34
+#: inc/patterns/footer-query-title-citation.php:32
+msgid "Proudly powered by %s"
+msgstr "%s द्वारा गर्वकासाथ सञ्चालित"
+
+#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
+msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
+msgstr "हामी चरा पर्यवेक्षकहरूको एक बदमाश समूह हौं। हामी दुर्लभ चराहरू हेर्नको लागि बारहरू, परिधिको पर्खाल चढ्न, र सामान्यतया अतिक्रमण गर्न चिनिन्छौं।"
+
+#: inc/patterns/footer-about-title-logo.php:6
+msgid "Footer with text, title, and logo"
+msgstr "पाठ, शीर्षक, र लोगोको साथ फुटर"
+
+#: inc/patterns/page-layout-image-and-text.php:10
+msgid "<em>Watching Birds </em><br><em>in the Garden</em>"
+msgstr "<em>बगैंचामा</em><br><em>पक्षी हेर्दै </em>"
+
+#: inc/patterns/page-layout-image-and-text.php:6
+msgid "Page layout with image and text"
+msgstr "पृष्‍ठ लेआउट सँग तस्बिर र अक्षरहरु"
+
+#: inc/patterns/page-about-media-right.php:6
+msgid "About page with media on the right"
+msgstr "मिडिया दाहिने पट्टी भएकाे जानकारी पृष्‍ठ"
+
+#: inc/patterns/page-about-media-left.php:6
+msgid "About page with media on the left"
+msgstr "मिडिया देब्रे पट्टी भएकाे जानकारी पृष्‍ठ"
+
+#: inc/patterns/page-about-links.php:6
+msgid "About page links"
+msgstr "जानकारी पृष्‍ठकाे लिङ्कहरु"
+
+#: inc/patterns/page-about-links-dark.php:34
+#: inc/patterns/page-about-links.php:38
+msgid "Listen on Spotify"
+msgstr "स्पाेटिफाइमा सुन्नुहोस्"
+
+#: inc/patterns/page-about-links-dark.php:30
+#: inc/patterns/page-about-links.php:34
+msgid "Listen on iTunes Podcasts"
+msgstr "iTunes पाेडकास्टमा सुन्नुहोस्"
+
+#: inc/patterns/page-about-links-dark.php:6
+msgid "About page links (dark)"
+msgstr "जानकारी पृष्‍ठकाे लिङ्कहरु (गाढा)"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:6
+msgid "About page with large image and buttons"
+msgstr "ठूलो तस्विर र बटनहरू भएको जानकारी पृष्‍ठ"
+
+#: inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr "यो पृष्ठ फेला पार्न सकिएन। खोजी  गर्ने प्रयास गर्नुहुन्छ की ?"
+
+#: inc/patterns/header-title-navigation-social.php:6
+msgid "Title, navigation, and social links header"
+msgstr "शीर्षक, नेभिगेसन र सामाजिक लिङ्क हेडर"
+
+#: inc/patterns/header-text-only-with-tagline-black-background.php:6
+msgid "Text-only header with tagline and black background"
+msgstr "ट्यागलाइन र कालो पृष्ठभूमिको साथ अक्षर-मात्र हेडर"
+
+#: inc/patterns/header-text-only-salmon-background.php:6
+msgid "Text-only header with salmon background"
+msgstr "सामन पृष्ठभूमि संग अक्षर-मात्र हेडर"
+
+#: inc/patterns/header-text-only-green-background.php:6
+msgid "Text-only header with green background"
+msgstr "हरियो पृष्ठभूमि भएको अक्षर मात्र हेडर"
+
+#: inc/patterns/header-image-background-overlay.php:6
+msgid "Header with image background and overlay"
+msgstr "तस्विर पृष्ठभूमि र ओभरले संग हेडर"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:6
+msgid "Wide image with introduction and buttons"
+msgstr "परिचय र बटनहरूको साथ चौडा तस्विर"
+
+#: inc/patterns/general-two-images-text.php:6
+msgid "Two images with text"
+msgstr "अक्षर संग दुई तस्बिरहरू"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "वर्डप्रेस टोली"

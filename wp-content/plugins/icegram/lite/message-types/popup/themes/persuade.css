@@ -1,0 +1,81 @@
+/* purgecss start ignore */
+.ig_popup.ig_persuade {
+    background: #ef504e;
+    color: #FFF;
+    border: .4em dashed #FFF;
+    padding-bottom: .1em;
+}
+
+.ig_popup.ig_persuade .ig_headline {
+    @apply text-center;
+    letter-spacing: 0;
+    /*color: #FFF;*/
+    font-size: 2.8em;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1em;
+    padding: .7em .7em 0.5em;
+}
+
+.ig_popup.ig_persuade .ig_image {
+   @apply float-left;
+}
+
+.ig_popup.ig_persuade .ig_message {
+    @apply font-light text-center;
+    padding: 0.5em 1.5em .8em;
+    font-size: 1.5em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ig_popup.ig_persuade .ig_button, 
+.ig_popup.ig_persuade input[type="submit"], 
+.ig_popup.ig_persuade input[type="button"] {
+    @apply no-underline text-center font-normal clear-both text-white border-none;
+    background: #424242;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-size: 2em;
+    line-height: 1.2em;
+    width: 55%;
+    /*margin: .8em auto .5em auto;*/
+    margin: .5em auto 1em auto;
+    padding: 0.4em;
+    border-radius: .4em;
+    border-bottom: .28em solid #333;
+    border-bottom: .2em solid rgba(0, 0, 0, .3) !important;
+    box-shadow: 0 .15em .1em rgba(0, 0, 0, 0.3) !important;
+    border-bottom: .28em solid #333;
+    box-shadow: 0 .3em 1.5em rgba(0, 0, 0, 0.6) !important;
+}
+
+.ig_popup.ig_persuade .ig_button:hover, 
+.ig_popup.ig_persuade input[type="submit"]:hover, 
+.ig_popup.ig_persuade input[type="button"]:hover {
+    /*border-bottom: .1em solid #333;*/
+    /*margin: .4em auto .5em auto;*/
+    /*border-color: transparent !important;*/
+    box-shadow: 0 .1em .1em rgba(0, 0, 0, 0.3) !important;
+}
+
+.ig_popup.ig_persuade .ig_button:active, 
+.ig_popup.ig_persuade input[type="submit"]:active, 
+.ig_popup.ig_persuade input[type="button"]:active {
+    @apply shadow-none !important;
+    /*border-top: none;*/
+    /*margin: .4em auto .5em auto;*/
+   /* box-shadow: 0 0 .2em rgba(0, 0, 0, 0.3) !important;*/
+}
+
+/****************** Embed Form: Start *******************/
+
+/*.ig_popup.ig_persuade .ig_form_container .ig_button{
+    width: 98%;
+}
+
+.ig_popup.ig_form_style_2.ig_persuade .ig_form_container.layout_bottom  .ig_form_els .ig_button,
+.ig_popup.ig_form_style_2.ig_persuade .ig_form_container.layout_inline  .ig_form_els .ig_button{
+    top: -.14em !important;
+}*/
+
+/****************** Embed Form: End *******************/
+
+/* purgecss end ignore */

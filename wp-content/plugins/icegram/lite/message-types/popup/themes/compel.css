@@ -1,0 +1,92 @@
+/* purgecss start ignore */
+.ig_popup.ig_compel {
+    @apply bg-white;
+    color: #707070;
+    border: 4px dashed #c0392b;
+}
+
+.ig_popup.ig_compel .ig_headline {
+    @apply text-center;
+    padding: .5em;
+    padding-right: 1em;
+    font-size: 2em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 0.2em;
+}
+
+.ig_popup.ig_compel .ig_image {
+    @apply float-left;
+    padding-right: 1em;
+}
+
+.ig_popup.ig_compel .ig_message {
+    padding: 0.5em 1.25em 0.8em;
+    font-size: 1.25em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    margin: 0 .5em .5em .5em;
+}
+
+.ig_popup.ig_compel .ig_close {
+    @apply m-0 top-0 right-0;
+    background-position: -520px center;
+    opacity: .35;
+}
+.ig_popup.ig_compel .ig_close:hover {
+    @apply opacity-75;
+    background-position: -520px center;
+}
+
+.ig_popup.ig_compel .ig_button, 
+.ig_popup.ig_compel input[type="submit"], 
+.ig_popup.ig_compel input[type="button"] {
+    @apply w-1/2 uppercase font-semibold text-center;
+    background: #e74d3c;
+    color: #FFF;
+    border-radius: 5px;
+    /*border-bottom: 3px solid #bf3a2b;*/
+    border-bottom: .18em solid #bf3a2b;
+    font-size: 1.2em;
+    /*padding: .8em .15em;*/
+    padding: .8em .15em .62em .15em;
+    margin: .5em auto 1.2em auto;
+}
+
+.ig_popup.ig_compel .ig_button:hover, 
+.ig_popup.ig_compel input[type="submit"]:hover, 
+.ig_popup.ig_compel input[type="button"]:hover {
+    /*margin-bottom: 1.2em;*/
+    /*border-bottom: 6px solid #c0392b;*/
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+/*
+.ig_popup.ig_compel .ig_button:active,
+.ig_popup.ig_compel input[type="submit"]:active,
+.ig_popup.ig_compel input[type="button"]:active{
+    border-top: none;
+    margin: 0 auto;
+    margin-bottom: 1.2em;
+}
+*/
+
+
+/****************** Embed Form: Start *******************/
+
+/*.ig_popup.ig_compel .ig_form_container .ig_button{
+    width: 98%;
+}
+.ig_popup.ig_form_right.ig_compel .ig_form_container.layout_right{
+    padding-right: 2em; 
+}
+
+.ig_popup.ig_form_right.ig_form_style_4.ig_compel .ig_close,
+.ig_popup.ig_form_right.ig_form_style_4.ig_compel .ig_close:hover{
+    margin: -32px -32px 0 0;
+    top: 34px;
+    right: 32px;
+}
+*/
+
+
+/****************** Embed Form: End *******************/
+
+/* purgecss end ignore */

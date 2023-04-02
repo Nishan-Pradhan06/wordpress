@@ -1,0 +1,26 @@
+.ig_toast.ig_night-glow.ig_container {
+	@apply bg-transparent !important;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+	-webkit-font-smoothing: antialiased;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.83)), to(rgba(51, 51, 51, 0.73)), color-stop(0.5, rgba(0, 0, 0, 0.83))) !important;
+	background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.83)0%, rgba(0, 0, 0, 0.83)50%, rgba(51, 51, 51, 0.73)100%) !important;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.83)0%, rgba(0, 0, 0, 0.83)50%, rgba(51, 51, 51, 0.73)100%) !important;
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0 -1px 0 #000;
+}
+
+.ig_toast.ig_night-glow .ig_wrapper {
+	@apply bg-no-repeat;
+	border-radius: 3px;
+	background-image: url(../../../assets/images/toast-glow.png);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ig_toast.ig_night-glow .ig_content {
+	@apply bg-transparent !important;
+	padding-left: 8px;
+	border-radius: 3px;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+}

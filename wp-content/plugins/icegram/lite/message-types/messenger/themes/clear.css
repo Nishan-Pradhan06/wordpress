@@ -1,0 +1,100 @@
+.ig_messenger.ig_clear.ig_container {
+    /*width: 250px;*/
+    /*height: 260px;*/
+    font-size: 13px;
+    width: 19.25em;
+    height: 20.75em;
+    border-radius: .23em .23em 0 0;
+    border: 1px solid #BFBFBF;
+}
+
+.ig_messenger.ig_clear .ig_headline:after,
+.ig_messenger.ig_clear .ig_headline:before {
+    @apply bg-cover;
+}
+
+.ig_messenger.ig_clear .ig_headline:before {
+    @apply block;
+    background-image: url(../../../assets/images/clear-header.png);
+    top: .6em;
+    left: .6em;
+    height: 1.25em;
+    width: 1.25em;
+}
+
+.ig_messenger.ig_clear .ig_headline {
+    @apply w-full;
+    background: #F9F9F9
+    color: #333;
+    height: 2.38em;
+    line-height: 2.58em;
+    font-size: 1em;
+    padding: 0 2.9em 0 2em;
+    border-bottom: 1px solid #BFBFBF;
+    box-shadow: inset 0 0 .25em 0 #FFF;
+}
+
+.ig_messenger.ig_clear .ig_headline:after {
+    @apply block;
+    height: 2.12em;
+    top: 2.38em;
+    background-image: url(../../../assets/images/clear-option.png);
+}
+
+.ig_messenger.ig_clear .ig_body {
+    @apply relative right-0 bg-white;
+    color: #222;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13.35em;
+    top: 2.12em;
+    border-top: 1px solid #BFBFBF;
+    line-height: 1.25em;
+    padding: .5em .9em 0 .5em;
+    box-shadow: inset 0 0 .25em 0 #FFF;
+}
+
+.ig_messenger.ig_clear .ig_message {
+    @apply w-full;
+    color: #3E454C;
+    padding-left: 3em;
+}
+
+.ig_messenger.ig_clear.ig_no_icon .ig_message {
+    padding-left: .5em;
+}
+
+.ig_messenger.ig_clear .ig_footer {
+    @apply block bg-cover;
+    background-color: inherit;
+    height: 2.76em;
+    margin-top: 2.12em;
+    border-top: 1px solid #BFBFBF;
+    background-image: url(../../../assets/images/clear-footer.png);
+}
+
+.ig_messenger.ig_clear .ig_close {
+    top: .3em;
+    @apply right-0;
+}
+
+.ig_messenger.ig_clear .ig_close:before {
+    @apply block p-0;
+    background-image: url(../../../assets/images/clear-header.png);
+    background-position: 0 -181px;
+    top: 6px;
+    height: 13px;
+    width: 13px;
+    right: 1.7em;
+}
+
+.ig_messenger.ig_clear .ig_powered_by {
+    bottom: 1.8em;
+    padding-right: 3em;
+    font-size: .8em;
+}
+@media only screen and (max-width: 992px){
+    .ig_messenger.ig_clear.ig_container {
+        font-size: 14px;
+    }
+}

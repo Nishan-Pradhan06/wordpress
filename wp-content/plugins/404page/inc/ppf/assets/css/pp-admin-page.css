@@ -1,0 +1,282 @@
+body {
+	background-color: #fff;
+}
+
+#wpcontent {
+    padding-left: 0 !important;
+	color: #434343 !important;
+}
+
+.pp-admin-page-wrapper {
+  margin: 0;
+}
+
+.pp-admin-notice-area {
+  padding: 0;
+}
+
+.pp-admin-notice-area .notice {
+	margin: 0;
+}
+
+.pp-admin-page-header {
+  background-color: #E2E2E2;
+}
+
+.rtl .pp-admin-page-header {
+  margin-left: 0;
+}
+
+.pp-admin-page-header nav {
+  margin-right: 24px;
+  text-align: right;
+  line-height: 1;
+  padding-top: 6px;
+}
+
+.rtl .pp-admin-page-header nav {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 24px;
+}
+
+.pp-admin-page-header nav a {
+  display: inline-block;
+  padding: 0 3px;
+  color: #434343;
+  text-decoration: none;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.pp-admin-page-header nav a span.text {
+  white-space: nowrap;
+  padding-left: 4px;
+}
+
+.rtl .pp-admin-page-header nav a span.text {
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+@media only screen and (max-width: 960px) {
+  .pp-admin-page-header nav a {
+    font-size: 36px;
+    padding: 0 12px;
+  }
+  .pp-admin-page-header nav a span.text {
+    display: none;
+  }
+}
+
+.pp-admin-page-title {
+  padding: 12px 24px;
+  color: #434343;
+}	
+
+.pp-admin-page-title h1 {
+  color: #434343;
+  margin: 0;
+  padding: 0;
+}
+
+.pp-admin-page-header .tab-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 24px;
+  list-style: none;
+}
+
+.pp-admin-page-header .tab-navigation li {
+  margin: 0;
+}
+
+.pp-admin-page-header .tab-navigation .tabset {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #434343;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.pp-admin-page-header .tab-navigation .tabset:hover {
+  background-color: rgba( 255, 255, 255, 0.3 );
+}
+
+.pp-admin-page-header .tab-navigation .tabset.current, .pp-admin-page-header .tab-navigation .tabset.current:hover {
+  background-color: #fff;
+  color: #434343;
+}
+
+.pp-admin-page-header .tab-navigation .tabset.has-icon {
+  padding-left: 60px;
+  background-position: 24px center;
+  background-repeat: no-repeat;
+}
+
+.pp-admin-page-header .tab-navigation .tabset.icon-general {
+  background-image: url( ../img/general.svg );
+}
+
+.pp-admin-page-header .tab-navigation .tabset.icon-videos {
+  background-image: url( ../img/videos.svg );
+}
+
+.pp-admin-page-header .tab-navigation .tabset.icon-advanced {
+  background-image: url( ../img/advanced.svg );
+}
+
+.pp-admin-page-header .tab-navigation .tabset.icon-addons {
+  background-image: url( ../img/addons.svg );
+}
+
+.pp-admin-page-header .tab-navigation .tabset.icon-info {
+  background-image: url( ../img/info.svg );
+}
+
+.pp-admin-page-inner {
+  padding: 24px;
+  background-color: #fff;
+}
+
+.pp-admin-page-inner .tab-panel .panel {
+  display: none;
+}
+
+.pp-admin-page-inner .tab-panel .panel.current {
+  display: block;
+}
+
+.pp-admin-page-inner .tab-panel .panel.current.nosubmit ~ .submit {
+  display: none;
+}
+
+.pp-admin-page-inner .tab-panel p.submit {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.wp-core-ui .pp-admin-page-inner .tab-panel .button-primary {
+  background-color: #4D648D;
+  border: 1px solid #4D648D;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 16px;
+  line-height: 1;
+  height: auto;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+}
+
+.wp-core-ui .pp-admin-page-inner .tab-panel .button-primary:hover, .wp-core-ui .pp-admin-page-inner .tab-panel .button-primary:focus {
+  background-color: #283655;
+  border: 1px solid #283655;
+}
+
+.pp-admin-page-wrapper .form-table th, .form-table td {
+  display: block;
+  width: auto;
+}
+
+.pp-admin-page-wrapper .form-table td {
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.pp-admin-page-wrapper .form-table td p {
+  padding: 0;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.pp-admin-page-wrapper .form-table th {
+  display: none;
+}
+
+.wp-admin .pp-admin-page-wrapper select {
+  border: 3px solid #434343;
+  border-radius: 6px;
+  padding: 6px;  
+  line-height: 1.5;
+  height: auto;
+}
+
+.pp-admin-page-wrapper a {
+  color: #4D648D;
+  transition: color 0.3s ease;
+}
+
+.pp-admin-page-wrapper a:hover, .pp-admin-page-wrapper a:focus {
+  color: #0073aa;
+}
+
+.pp-admin-page-wrapper .toggle {
+  display: flex;
+}
+
+.pp-admin-page-wrapper .toggle .slider {
+  width: 120px;
+}
+
+.pp-admin-page-wrapper .toggle .caption {
+  flex: 1;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"] {
+	display: none;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"] + label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 80px;
+	height: 40px;
+	background: #959595;
+	display: block;
+	border-radius: 40px;
+	position: relative;
+    transition: all 0.3s ease;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"]:disabled + label {
+  background-color: #CDCDCD;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"] + label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+	background-color: #FFF;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"]:disabled + label:after {
+	background-color: #E2E2E2;
+}
+
+body:not(.rtl) .pp-admin-page-wrapper .toggle input[type="checkbox"] + label:after, .rtl .pp-admin-page-wrapper .toggle input[type="checkbox"]:checked + label:after {
+  left: 5px;
+  transform: none;
+}
+
+.pp-admin-page-wrapper .toggle input[type="checkbox"]:enabled:checked + label {
+  background: #434343;
+}
+
+body:not(.rtl) .pp-admin-page-wrapper .toggle input[type="checkbox"]:checked + label:after, .rtl .pp-admin-page-wrapper .toggle input[type="checkbox"] + label:after {
+  left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.form-table.pp-admin-section-fields {
+  margin-top: 0;
+}

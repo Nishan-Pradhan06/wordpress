@@ -1,0 +1,298 @@
+@media (max-width: 1299px) {
+    .slider-wrap .swiper-button-next,
+    .slider-wrap .swiper-button-prev {
+        margin-top: 0;
+        position: relative;
+        top: 0;
+        left: auto;
+        right: auto;
+        display: inline-block;
+        margin: 0 10px;
+    }
+    /*.service-box2 {
+        width: calc(100% / 3);
+    }*/
+}
+
+@media (max-width: 1300px) {
+    .programs-slider-one {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1199px) {
+    .head-top-one:after {
+        left: -20%;
+        width: 500px;
+        -webkit-transform: skew(0);
+        transform: skew(0);
+        -moz-transform: skew(0);
+        -ms-transform: skew(0);
+        -o-transform: skew(0);
+    }
+    .video-one{
+        margin-bottom: -159px;
+    }
+    .extra-pad {
+        padding-top: 259px;
+    }
+    .about-2::after {
+        display: none;
+    }
+    .vid-box2 {
+        text-align: center;
+    }
+    .post-meta li{
+        padding: 0 12px;
+    }
+    .amount {
+        width: 100%;
+        display: block;
+    }
+    .price-content {
+        display: block;
+        padding:30px 25px;
+    }
+    .error-one h2 {
+        font-size: 220px;
+    }
+    .programs-slider-one {
+        height: 413px;
+        margin-bottom:50px;
+    }
+}
+
+@media (min-width:1200px) {
+    .about-one {
+        background-image: url('../img/home/man.png');
+        background-repeat: no-repeat;
+        background-position: 100% 80%;
+    }
+    .cta {
+        background-image: url(../img/blog/blog-women.png);
+        background-repeat: no-repeat;
+        background-position: 4% bottom;
+    }
+    .team-slider-two.owl-theme .owl-nav,
+    .class-3slider.owl-theme .owl-nav {
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        width: 100%;
+        left: 0;
+    }
+
+    .team-slider-two.owl-theme .owl-nav .owl-prev {
+        left: -25px;
+    }
+    .team-slider-two.owl-theme .owl-nav .owl-next{
+        right: -25px;
+    }
+    .team-slider-two.owl-theme .owl-nav .owl-prev, 
+    .team-slider-two.owl-theme .owl-nav .owl-next,
+    .class-3slider.owl-theme .owl-nav [class*=owl-] {
+        position: absolute;
+        margin: 0;
+    }
+    
+}
+@media (min-width: 1400px) {
+    .team-slider-two.owl-theme .owl-nav .owl-prev,
+    .class-3slider.owl-theme .owl-nav .owl-prev {
+        left: -40px;
+    }
+    .team-slider-two.owl-theme .owl-nav .owl-next,
+    .class-3slider.owl-theme .owl-nav .owl-next {
+        right: -40px;
+    }
+}
+
+
+@media (max-width: 1399px) {
+    .logo-one .logo a {
+        padding: 32px 10px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-item .mega-heading {
+        color: #5aaf29;
+        padding: 10px;
+        display: block;
+        pointer-events: none;
+    }
+    .header-one:after {
+        display: none;
+    }
+    .navbar-nav .nav-item a,
+    .navbar-nav .dropdown-item a,
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .video-one {
+        margin-bottom: -118px;
+    }
+    .extra-pad {
+        padding-top: 218px;
+    }
+    /*.service-box2 {
+        width: calc(100% / 2);
+    }*/
+    .testi-one-slider{
+        margin-top: 0;
+    }
+    .error-one{
+        text-align: center;
+    }
+    .error-one h2{
+        font-size:170px;
+    }
+    .error-text h2{
+        font-size:150px;
+    }
+    .error-one h3 {
+        font-size: 50px;
+    }
+    .error-one p {
+        font-size: 20px;
+    }    
+    .programs-slider-one {
+        height: 458px;
+        margin-bottom:40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testi-one-slider .owl-nav {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 100%;
+        left: 0;
+    }
+    .testi-one-slider.owl-theme .owl-nav .owl-prev {
+        left: -65px;
+    }
+    .testi-one-slider.owl-theme .owl-nav .owl-next  {
+        right: -65px;
+    }
+    .testi-one-slider.owl-theme .owl-nav .owl-prev, 
+    .testi-one-slider.owl-theme .owl-nav .owl-next {
+        position: absolute;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .video-one {
+        margin-bottom: -87px;
+    }
+    .extra-pad {
+        padding-top: 187px;
+    }
+    .service-box2 {
+        width: 100%;
+        display: block;
+    }
+    .error-bottom{
+        display:block;
+    }
+    .programs-slider-one {
+        height: 400px;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .programs-slider-one .swiper-slide img {
+        max-width: 180px;
+        width: 100%;
+    }
+    .team-two .team-det{
+        display: block;
+        padding-right: 0;
+        max-width: 100%;
+    }
+    .team-two .team-img {
+        display: none;
+    }
+    .aut-img {
+        display: block;
+        width: 150px;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+    .text-box, .btn-box {
+        display:block;
+    }
+    .btn-box {
+       padding-left: 0
+    }
+    .comment-body {
+        padding-left:90px;
+    }
+    .comment-author .avatar {
+        width: 70px;
+    }
+    .programs-slider-one {
+        height: 410px;    
+        padding-top: 73px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home7-hero-sec .slider-item .slider-content{
+        padding-top: 95px;
+        padding-bottom: 150px;
+    }
+    .home7-hero-sec .slider-item .slider-content h1{
+        font-size: 38px;
+		max-width:100%;
+    }
+    .home7-hero-sec .slider-content  p {
+        color: #fff;
+        max-width: 650px;
+        font-size: 15px !important;
+        margin-bottom: 30px;
+    }
+    .feature-area {
+        position: relative;
+        margin-top: -175px;
+    }
+   
+    .footer .foot-top .logo img {
+        margin-bottom: 30px;
+    }
+    .footer .foot-top .menu-link li{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .footer .foot-top .address-list li {
+        margin-bottom: 20px;
+    }
+    .footer .foot-top .menu-link, 
+    .footer .foot-top .social-icon{
+        margin: 20px 0;
+    }
+    .footer .foot-top h2 {
+        margin-top: 20px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .home7-hero-sec .slider-btn .slider-btn1 {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+.team-profile {
+        width: 60%;
+        margin: 20px auto;
+    }
+}
+

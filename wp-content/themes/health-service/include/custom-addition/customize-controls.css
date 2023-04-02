@@ -1,0 +1,18 @@
+#customize-controls .control-section-health-service .accordion-section-title:hover,
+#customize-controls .control-section-health-service .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-health-service .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+	background: #c0392b;
+	color: #fff;
+	border:0px solid #fff;
+}
+
+.rtl .control-section-health-service .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}

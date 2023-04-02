@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myStickymenu\n"
+"POT-Creation-Date: 2017-09-15 08:39+0100\n"
+"PO-Revision-Date: 2017-09-15 08:39+0100\n"
+"Last-Translator: mrda <jahmirda@gmail.com>\n"
+"Language-Team: TFN <jahmirda@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../mystickymenu.php:167
+#, fuzzy
+msgid "myStickymenu"
+msgstr " Opciones de myStickymenu "
+
+#: ../mystickymenu.php:168
+#, fuzzy
+msgid ""
+"Add sticky menu / header to any theme. <br />Simply change 'Sticky Class' to "
+"HTML element class desired to be sticky (div id can be used as well)."
+msgstr ""
+"Adiciona agradable menú o encabezado moderno a cualquier tema. Por defecto "
+"trabaja con el tema Twenty Thirteen. <br/> Para otros temas cambie  'Sticky "
+"Class' a la clase div que se quiere poner como sticky (el id del div puede "
+"ser usado también)."
+
+#: ../mystickymenu.php:271 ../mystickymenu.php:416 ../mystickymenu.php:422
+#: ../mystickymenu.php:561
+msgid " "
+msgstr ""
+
+#: ../mystickymenu.php:283
+msgid "Sticky Class"
+msgstr " Clase de Sticky "
+
+#: ../mystickymenu.php:291
+msgid "Fade or slide effect"
+msgstr "  Atenuar o deslizar efecto"
+
+#: ../mystickymenu.php:298
+msgid "Sticky z-index"
+msgstr "   z-index de Sticky "
+
+#: ../mystickymenu.php:305
+msgid "Sticky Background Color"
+msgstr "  Color de Fondo de Sticky "
+
+#: ../mystickymenu.php:312
+msgid "Sticky Opacity"
+msgstr "  Opacidad de Sticky "
+
+#: ../mystickymenu.php:319
+msgid "Sticky Transition Time"
+msgstr "  Tiempo de Transición de Sticky "
+
+#: ../mystickymenu.php:326
+msgid "Disable at Small Screen Sizes"
+msgstr "  Desabilitado en Tamaños Pequeños en la Pantalla"
+
+#: ../mystickymenu.php:333
+msgid "Make visible on Scroll"
+msgstr " Hacer visible cuando se hace scroll"
+
+#: ../mystickymenu.php:340
+msgid "Make visible on Scroll at homepage"
+msgstr " Hacer visible cuando se hace scroll on homepage"
+
+#: ../mystickymenu.php:349
+#, fuzzy
+msgid "Disable on scroll down"
+msgstr " Hacer visible cuando se hace scroll"
+
+#: ../mystickymenu.php:356
+#, fuzzy
+msgid "CSS style"
+msgstr "Disable CSS style"
+
+#: ../mystickymenu.php:363
+msgid "Disable CSS style"
+msgstr "Disable CSS style"
+
+#: ../mystickymenu.php:373 ../mystickymenu.php:380 ../mystickymenu.php:386
+#: ../mystickymenu.php:392 ../mystickymenu.php:398 ../mystickymenu.php:404
+#: ../mystickymenu.php:410 ../mystickymenu.php:428
+#, fuzzy
+msgid "Disable at"
+msgstr "Disable CSS style"
+
+#: ../mystickymenu.php:570
+#, fuzzy
+msgid "menu or header element class or id."
+msgstr "clase o id del div del menú o encabezado."
+
+#: ../mystickymenu.php:596
+msgid "numbers 1-100."
+msgstr "     números 1-100."
+
+#: ../mystickymenu.php:606
+msgid "in seconds."
+msgstr "en cuestión de segundos."
+
+#: ../mystickymenu.php:615
+msgid "less than"
+msgstr "menos que"
+
+#: ../mystickymenu.php:620
+msgid "px width, 0  to disable."
+msgstr "ancho px, 0 para desactivarlo."
+
+#: ../mystickymenu.php:629 ../mystickymenu.php:643
+msgid "after"
+msgstr "después"
+
+#: ../mystickymenu.php:634
+msgid "px. If set to 0 auto calculate will be used."
+msgstr ""
+
+#: ../mystickymenu.php:648
+msgid "px. If set to 0 it will use initial Make visible on Scroll value."
+msgstr ""
+
+#: ../mystickymenu.php:659
+msgid "Checked is slide, unchecked is fade."
+msgstr "Checked es deslizar, sin control se desvanecen."
+
+#: ../mystickymenu.php:667
+msgid "Disable sticky menu at scroll down"
+msgstr ""
+
+#: ../mystickymenu.php:680
+#, fuzzy
+msgid "Add/edit CSS style. Leave it blank for default style."
+msgstr ""
+"Agregar / Editar. Myfixed clase CSS para cambiar el estilo de menú pegajoso. "
+"Déjelo en blanco para el estilo predeterminado."
+
+#: ../mystickymenu.php:688
+#, fuzzy
+msgid "If you want to change sticky hover color: "
+msgstr ""
+"Si desea cambiar el color libración pegajosa primero añadir estilo por "
+"defecto y que:"
+
+#: ../mystickymenu.php:690
+msgid ""
+"More examples <a href='http://wordpress.transformnews.com/tutorials/"
+"mystickymenu-extended-style-functionality-using-myfixed-sticky-"
+"class-403'>here</a>."
+msgstr ""
+"Más ejemplos <unas href='http://wordpress.transformnews.com/tutorials/"
+"mystickymenu-extended-style-functionality-using-myfixed-sticky-"
+"class-403'>here</a>."
+
+#: ../mystickymenu.php:701
+msgid "Use this option if you plan to include CSS Style manually"
+msgstr "Use this option if you plan to include CSS Style manually"
+
+#: ../mystickymenu.php:720
+msgid "<span>front page </span>"
+msgstr ""
+
+#: ../mystickymenu.php:726
+msgid "<span>blog page </span>"
+msgstr ""
+
+#: ../mystickymenu.php:732
+msgid "<span>pages </span>"
+msgstr ""
+
+#: ../mystickymenu.php:738
+msgid "<span>tags </span>"
+msgstr ""
+
+#: ../mystickymenu.php:744
+msgid "<span>categories </span>"
+msgstr ""
+
+#: ../mystickymenu.php:750
+msgid "<span>posts </span>"
+msgstr ""
+
+#: ../mystickymenu.php:756
+msgid "<span>archives </span>"
+msgstr ""
+
+#: ../mystickymenu.php:763
+msgid "<span>search </span>"
+msgstr ""
+
+#: ../mystickymenu.php:773
+msgid "<span class=\"\">Except for this pages: </span>"
+msgstr ""
+
+#: ../mystickymenu.php:780
+msgid ""
+"<span class=\"description\">Comma separated list of pages to enable. It "
+"should be page name, id or slug. Example: about-us, 1134, Contact Us. Leave "
+"blank if you realy want to disable sticky sidebar for all pages.</span>"
+msgstr ""
+
+#: ../mystickymenu.php:787
+msgid "<span class=\"\">Except for this posts: </span>"
+msgstr ""
+
+#: ../mystickymenu.php:794
+msgid ""
+"<span class=\"description\">Comma separated list of posts to enable. It "
+"should be post name, id or slug. Example: about-us, 1134, Contact Us. Leave "
+"blank if you realy want to disable sticky sidebar for all posts.</span>"
+msgstr ""
+
+#~ msgid "myStickymenu Settings"
+#~ msgstr "  Configuraciones de myStickymenu "
+
+#~ msgid ".myfixed css class"
+#~ msgstr ".myfixed css class"
+
+#~ msgid "px."
+#~ msgstr "px."
+
+#~ msgid "Default style: "
+#~ msgstr "Estilo por defecto:"
+
+#~ msgid "px. (scroll)"
+#~ msgstr "px. (scroll)"
+
+#~ msgid "mymessage2"
+#~ msgstr "Bye"

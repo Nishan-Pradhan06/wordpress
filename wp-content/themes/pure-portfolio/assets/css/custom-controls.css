@@ -1,0 +1,191 @@
+/* ==========================================================================
+CSS for Customizer Custom Controls
+========================================================================== */
+
+
+/* ==========================================================================
+Toggle Switch
+========================================================================== */
+
+.toggle-switch-control .customize-control-title {
+    display: inline-block;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 64px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: right;
+}
+
+.toggle-switch .toggle-switch-checkbox {
+    display: none;
+}
+
+.toggle-switch .toggle-switch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.toggle-switch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.2s ease-in 0s;
+}
+
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 22px;
+    padding: 0;
+    line-height: 22px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.toggle-switch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #2885bb;
+    color: #fff;
+}
+
+.toggle-switch-inner:after {
+    content: "OFF";
+    padding-right: 8px;
+    background-color: #eee;
+    color: #999;
+    text-align: right;
+}
+
+.toggle-switch-switch {
+    display: block;
+    width: 16px;
+    margin: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 38px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.toggle-switch-checkbox:checked+.toggle-switch-label .toggle-switch-inner {
+    margin-left: 0;
+}
+
+.toggle-switch-checkbox:checked+.toggle-switch-label .toggle-switch-switch {
+    right: 0px;
+}
+
+
+/* ==========================================================================
+Sortable Repeater
+========================================================================== */
+
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sortable input[type="text"] {
+    margin: 5px 5px 5px 0;
+    width: 80%;
+}
+
+.sortable div {
+    cursor: move;
+}
+
+.customize-control-sortable-repeater-delete {
+    color: #d4d4d4;
+}
+
+.customize-control-sortable-repeater-delete:hover {
+    color: #f00;
+}
+
+.customize-control-sortable-repeater-delete .dashicons-no-alt {
+    text-decoration: none;
+    margin: 8px 0 0 0;
+    font-weight: 600;
+}
+
+.customize-control-sortable-repeater-delete:active,
+.customize-control-sortable-repeater-delete:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.repeater .dashicons-sort {
+    margin: 8px 5px 0 5px;
+    color: #d4d4d4;
+}
+
+.repeater .dashicons-sort:hover {
+    color: #a7a7a7;
+}
+
+/* ==========================================================================
+Multi fields
+========================================================================== */
+.customize_multi_fields .set {
+    margin-bottom: 5px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.customize_multi_fields input {
+    margin-bottom: 5px !important;
+}
+
+.customize_multi_remove_field {
+    color: red;
+    position: absolute;
+    right: -7px;
+    top: 3px;
+}
+
+.customize_multi_remove_field span {
+    text-decoration: none;
+}
+
+.customize_multi_remove_field:active,
+.customize_multi_remove_field:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.customize_multi_fields.ascendoor-multi-fields .set .customize_multi_remove_field {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0;
+    color: #d4d4d4;
+}
+
+.customize_multi_fields.ascendoor-multi-fields .set .customize_multi_remove_field:hover {
+    color: #f00;
+}
+
+.customize_multi_fields.ascendoor-multi-fields .set .customize_multi_remove_field::before {
+    font-size: 22px;
+}
